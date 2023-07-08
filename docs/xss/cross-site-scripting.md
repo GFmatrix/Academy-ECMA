@@ -56,11 +56,8 @@ https://insecure-website.com/status?message=<script>/*+Bad+stuff+here...+*/</scr
 
 Agar foydalanuvchi ushbu URL ga tashrif buyursa unda haker yozgan skript jabrlanuvchining brauzerida ishga tushadi. Bunda skript foydalanuvchiga ruxsat etilgan har qanday ishni qilishi mumkin.
 
-:::info Ma'lumot
-**Ko'proq o'qish:**
-
-[Reflected XSS ☰](cross-site-scripting#reflected)
-
+:::info **Ko'proq o'qish**  
+[Reflected XSS ☰](cross-site-scripting#reflected)  
 [Cross-site scripting cheat sheet ☰](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 :::
 
@@ -82,11 +79,8 @@ Web sayt hech qanday ma'lumotlarni tekshirmaydi va bu holatdan haker unumli foyd
 <p><script>/* Bad stuff here... */</script></p>
 ```
 
-:::info Ma'lumot
-**Ko'proq o'qish:**
-
-[Stored cross site scripting ☰](cross-site-scripting#stored-xss)
-
+:::info **Ko'proq o'qish**  
+[Stored cross site scripting ☰](cross-site-scripting#stored-xss)  
 [Cross-site scripting cheat sheet ☰](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 :::
 
@@ -110,8 +104,7 @@ You searched for: <img src=1 onerror='/* Bad stuff here... */'>
 
 Odatda, input HTTP so'rovining bir qismidan, masalan URL so'rovlar qatori parametridan to'ldirilib, hakerga reflected XSS dek zararli URL yordamida hujumni amalga oshirishga imkon beradi.
 
-:::info Ma'lumot
-**Ko'proq o'qish:**
+:::info **Ko'proq o'qish**
 [Domga asoslangan XSS ☰](cross-site-scripting#dom-based-xss)
 :::
 
@@ -134,8 +127,7 @@ Haqiqiy XSS zaifligining ta'siri web saytning funksionalligi, ma'lumotlari va fo
 * Bank operatsiyalari, elektron pochta xabarlari yoki sog'liqni saqlash yozuvlari kabi nozik ma'lumotlarga ega bo'lgan web saytda ta'sir odatda jiddiy bo'ladi.
 * Agar buzg'unchilikka uchragan foydalanuvchi web sayt ichida yuqori imtiyozlarga ega bo'lsa, bu ta'sir odatda juda muhim bo'lib, hakerga zaif dasturni to'liq nazorat qilish va barcha foydalanuvchilar va ularning ma'lumotlarini buzish imkonini beradi.
 
-:::info Ma'lumot
-**Ko'proq o'qish:**
+:::info **Ko'proq o'qish**
 [XSS zaifliklaridan foydalanish ☰](xss-zaifliklarini-exploit-qilish)
 :::
 
@@ -158,8 +150,7 @@ URL parametrlari orqali bajariladigan DOM-ga asoslangan XSS-ni qo'lda sinovdan o
 
 Biroq, DOM XSS ning boshqa turlarini aniqlash qiyinroq. URL-ga asoslanmagan input (masalan, `document.cookie`) yoki HTML-ga asoslanmagan (`setTimeout` kabi)  DOM-based zaifliklarni topishda JavaScript kodini ko'rib chiqish uchun uni o'rnini bosuvchi hech narsa yo'q, bu juda ko'p vaqt talab qilishi mumkin. Burp Suite web-zaiflik skaneri DOM-ga asoslangan zaifliklarni aniqlashni ishonchli tarzda avtomatlashtirish uchun JavaScriptning statik va dinamik tahlilini birlashtiradi.
 
-:::info Ma'lumot
-**Ko'proq o'qish:**
+:::info **Ko'proq o'qish**
 [Cross site scripting kontekslari ☰](xss-kontekstlari)
 :::
 
@@ -167,8 +158,7 @@ Biroq, DOM XSS ning boshqa turlarini aniqlash qiyinroq. URL-ga asoslanmagan inpu
 
 **Content Security Policy** (CSP) - saytlararo skriptlarning ta'sirini va boshqa ba'zi zaifliklar havfini kamaytishga qaratilgan brauzer mexanizmi. Agar CSP-dan foydalanadigan web sayt XSS-ga o'xshash xatti-harakatlarga ega bo'lsa, CSP zaiflikdan foydalanishga to'sqinlik qilishi yoki oldini olishi mumkin. Ko'pincha, asosiy zaiflikdan foydalanishni ta'minlash uchun CSP ni chetlab o'tish mumkin.
 
-:::info Ma'lumot
-**Ko'roq o'qish:**
+:::info **Ko'roq o'qish:**
 [Content Security Policy ☰](cross-site-scripting#content-security-policy)
 :::
 
